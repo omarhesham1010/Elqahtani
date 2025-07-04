@@ -802,6 +802,7 @@ p {
 .contact-map {
     border-radius: var(--border-radius);
     overflow: hidden;
+    height: 300px;
     box-shadow: var(--shadow);
 }
 
