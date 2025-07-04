@@ -401,6 +401,8 @@ window.addEventListener('scroll', optimizedScrollHandler);
 // Initialize WhatsApp functionality
 initWhatsApp();
 
+
+
 // Add CSS animations
 const style = document.createElement('style');
 style.textContent = `

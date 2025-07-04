@@ -704,6 +704,8 @@ p {
     margin: 0;
 }
 
+
+
 /* Reviews Section */
 .reviews {
     padding: 5rem 0;
@@ -803,15 +805,20 @@ p {
     box-shadow: var(--shadow);
 }
 
-/* WhatsApp Button */
-.whatsapp-btn {
+/* Contact Buttons */
+.contact-buttons {
     position: fixed;
     bottom: 2rem;
     left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1000;
+}
+
+.contact-btn {
     width: 60px;
     height: 60px;
-    background-color: #25D366;
-    color: var(--white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -820,12 +827,25 @@ p {
     text-decoration: none;
     box-shadow: var(--shadow-hover);
     transition: var(--transition);
-    z-index: 1000;
+    color: var(--white);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
 }
 
 .whatsapp-btn:hover {
     transform: scale(1.1);
     background-color: #128C7E;
+}
+
+.facebook-btn {
+    background-color: #1877F2;
+}
+
+.facebook-btn:hover {
+    transform: scale(1.1);
+    background-color: #166FE5;
 }
 
 /* Footer */
@@ -1005,12 +1025,17 @@ p {
         padding: 1.5rem;
     }
 
-    .whatsapp-btn {
+    .contact-buttons {
+        bottom: 1rem;
+        left: 1rem;
+        flex-direction: row;
+        gap: 0.75rem;
+    }
+    
+    .contact-btn {
         width: 50px;
         height: 50px;
         font-size: 1.25rem;
-        bottom: 1rem;
-        left: 1rem;
     }
 }
 
