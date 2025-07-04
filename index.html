@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نسيم الرياض - خدمات تكييف الهواء</title>
+    <meta name="description" content="نسيم الرياض - شركة متخصصة في بيع وشراء واستبدال أجهزة التكييف مع خدمات التركيب والصيانة. ضمان 6 أشهر على جميع الأجهزة.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-wind"></i>
+                    <span>نسيم الرياض</span>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#services" class="nav-link">خدماتنا</a>
+                    <a href="#gallery" class="nav-link">معرض الصور</a>
+                    <a href="#warranty" class="nav-link">الضمان</a>
+                    <a href="#contact" class="nav-link">اتصل بنا</a>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>أفضل خدمات التكييف في الرياض</h1>
+                    <p>بيع • شراء • استبدال • تركيب • صيانة</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">خدماتنا</a>
+                        <a href="#contact" class="btn btn-secondary">تواصل معنا</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>ضمان 6 أشهر على جميع الأجهزة</h1>
+                    <p>جودة عالية • أسعار منافسة • خدمة مميزة</p>
+                    <div class="hero-buttons">
+                        <a href="#warranty" class="btn btn-primary">تفاصيل الضمان</a>
+                        <a href="#contact" class="btn btn-secondary">احجز الآن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>تركيب احترافي وصيانة دورية</h1>
+                    <p>فنيون متخصصون • قطع غيار أصلية • خدمة 24/7</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">خدمات الصيانة</a>
+                        <a href="#contact" class="btn btn-secondary">اطلب خدمة</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="slider-btn prev" onclick="changeSlide(-1)">❮</button>
+            <button class="slider-btn next" onclick="changeSlide(1)">❯</button>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Quick Access -->
+    <section class="quick-access">
+        <div class="container">
+            <div class="quick-buttons">
+                <a href="#services" class="quick-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>شراء</span>
+                </a>
+                <a href="#services" class="quick-btn">
+                    <i class="fas fa-handshake"></i>
+                    <span>بيع</span>
+                </a>
+                <a href="#services" class="quick-btn">
+                    <i class="fas fa-exchange-alt"></i>
+                    <span>استبدال</span>
+                </a>
+                <a href="#services" class="quick-btn">
+                    <i class="fas fa-tools"></i>
+                    <span>تركيب</span>
+                </a>
+                <a href="#contact" class="quick-btn">
+                    <i class="fas fa-phone"></i>
+                    <span>اتصل بنا</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>من نحن</h2>
+                <p>شركة نسيم الرياض - خبرة أكثر من 10 سنوات في مجال التكييف</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>مهمتنا</h3>
+                    <p>نقدم أفضل خدمات التكييف في الرياض مع ضمان الجودة والموثوقية. نعمل على توفير الراحة لجميع عملائنا من خلال خدمات شاملة ومتكاملة.</p>
+                    
+                    <h3>قيمنا</h3>
+                    <ul>
+                        <li>الجودة العالية في جميع الخدمات</li>
+                        <li>الأسعار المنافسة والعادلة</li>
+                        <li>الخدمة السريعة والموثوقة</li>
+                        <li>الضمان على جميع الأجهزة</li>
+                        <li>الشفافية في التعامل</li>
+                    </ul>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <h4>+1000</h4>
+                        <p>عميل راضي</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-tools"></i>
+                        <h4>+500</h4>
+                        <p>تركيب ناجح</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-star"></i>
+                        <h4>4.8</h4>
+                        <p>تقييم العملاء</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>خدماتنا</h2>
+                <p>نقدم مجموعة شاملة من خدمات التكييف</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>بيع أجهزة التكييف</h3>
+                    <p>أجهزة تكييف جديدة ومستعملة بجودة عالية وأسعار منافسة</p>
+                    <ul>
+                        <li>أجهزة جديدة من أفضل الماركات</li>
+                        <li>أجهزة مستعملة مفحوصة</li>
+                        <li>ضمان 6 أشهر</li>
+                        <li>توصيل مجاني</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>شراء الأجهزة المستعملة</h3>
+                    <p>نشتري أجهزة التكييف المستعملة بأسعار عادلة</p>
+                    <ul>
+                        <li>تقييم مجاني للأجهزة</li>
+                        <li>أسعار منافسة</li>
+                        <li>دفع فوري</li>
+                        <li>نقل مجاني</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>استبدال الأجهزة</h3>
+                    <p>استبدل جهازك القديم بجهاز جديد مع خصم قيمة الجهاز القديم</p>
+                    <ul>
+                        <li>تقييم الجهاز القديم</li>
+                        <li>خصم من سعر الجهاز الجديد</li>
+                        <li>تركيب مجاني</li>
+                        <li>ضمان شامل</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>التركيب الاحترافي</h3>
+                    <p>تركيب احترافي بأيدي فنيين متخصصين</p>
+                    <ul>
+                        <li>فنيون معتمدون</li>
+                        <li>أدوات حديثة</li>
+                        <li>ضمان التركيب</li>
+                        <li>خدمة سريعة</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>الصيانة الدورية</h3>
+                    <p>صيانة دورية لضمان كفاءة الجهاز</p>
+                    <ul>
+                        <li>صيانة دورية</li>
+                        <li>تنظيف شامل</li>
+                        <li>فحص شامل</li>
+                        <li>تقارير مفصلة</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>خدمة العملاء</h3>
+                    <p>خدمة عملاء متاحة على مدار الساعة</p>
+                    <ul>
+                        <li>دعم فني 24/7</li>
+                        <li>استجابة سريعة</li>
+                        <li>حلول فورية</li>
+                        <li>متابعة مستمرة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Warranty Section -->
+    <section id="warranty" class="warranty">
+        <div class="container">
+            <div class="section-header">
+                <h2>الضمان</h2>
+                <p>ضمان 6 أشهر على جميع الأجهزة</p>
+            </div>
+            
+            <div class="warranty-content">
+                <div class="warranty-info">
+                    <h3>تفاصيل الضمان</h3>
+                    <div class="warranty-features">
+                        <div class="warranty-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>ضمان شامل</h4>
+                                <p>ضمان 6 أشهر على جميع الأجهزة الجديدة والمستعملة</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warranty-feature">
+                            <i class="fas fa-tools"></i>
+                            <div>
+                                <h4>صيانة مجانية</h4>
+                                <p>صيانة مجانية خلال فترة الضمان</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warranty-feature">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div>
+                                <h4>استبدال مجاني</h4>
+                                <p>استبدال الجهاز في حالة وجود عيوب مصنعية</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warranty-feature">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>دعم فني</h4>
+                                <p>دعم فني مجاني خلال فترة الضمان</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="warranty-terms">
+                    <h3>شروط الضمان</h3>
+                    <ul>
+                        <li>الضمان ساري من تاريخ الشراء</li>
+                        <li>يغطي العيوب المصنعية فقط</li>
+                        <li>لا يغطي الأضرار الناتجة عن سوء الاستخدام</li>
+                        <li>يجب الحفاظ على الفاتورة الأصلية</li>
+                        <li>الضمان غير قابل للتحويل</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>معرض الصور</h2>
+                <p>أعمالنا السابقة في الرياض</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop" alt="تركيب تكييف في منزل">
+                    <div class="gallery-overlay">
+                        <h4>تركيب منزلي</h4>
+                        <p>تركيب تكييف سبليت في منزل بالرياض</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="تركيب تكييف في مكتب">
+                    <div class="gallery-overlay">
+                        <h4>تركيب مكتبي</h4>
+                        <p>تركيب تكييف مركزي في مكتب</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop" alt="صيانة تكييف">
+                    <div class="gallery-overlay">
+                        <h4>صيانة دورية</h4>
+                        <p>صيانة وتنظيف أجهزة التكييف</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="تركيب تكييف في محل">
+                    <div class="gallery-overlay">
+                        <h4>تركيب تجاري</h4>
+                        <p>تركيب تكييف في محل تجاري</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop" alt="تركيب تكييف في مستودع">
+                    <div class="gallery-overlay">
+                        <h4>تركيب صناعي</h4>
+                        <p>تركيب تكييف في مستودع</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="فريق العمل">
+                    <div class="gallery-overlay">
+                        <h4>فريق العمل</h4>
+                        <p>فريق متخصص في التركيب والصيانة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>احجز خدمتك الآن</h2>
+                <p>املأ النموذج وسنتواصل معك فوراً</p>
+            </div>
+            
+            <div class="booking-content">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">رقم الجوال *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">نوع الخدمة *</label>
+                        <select id="service" name="service" required>
+                            <option value="">اختر الخدمة</option>
+                            <option value="buy">شراء جهاز تكييف</option>
+                            <option value="sell">بيع جهاز تكييف</option>
+                            <option value="exchange">استبدال جهاز تكييف</option>
+                            <option value="install">تركيب جهاز تكييف</option>
+                            <option value="maintenance">صيانة جهاز تكييف</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">العنوان</label>
+                        <textarea id="address" name="address" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">رسالة إضافية</label>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">إرسال الطلب</button>
+                </form>
+                
+                <div class="booking-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>واتساب</h4>
+                                <p>+966 50 123 4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>الهاتف</h4>
+                                <p>+966 11 234 5678</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>ساعات العمل</h4>
+                                <p>الأحد - الخميس: 8 ص - 8 م</p>
+                                <p>الجمعة - السبت: 9 ص - 6 م</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>آراء العملاء</h2>
+                <p>ماذا يقول عملاؤنا عنا</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"خدمة ممتازة وأسعار منافسة. الفنيون محترفون والتركيب كان سريع ودقيق."</p>
+                    <div class="review-author">
+                        <h4>أحمد محمد</h4>
+                        <span>حي النرجس - الرياض</span>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"اشتريت جهاز مستعمل منهم وكان في حالة ممتازة. الضمان أعطاني راحة البال."</p>
+                    <div class="review-author">
+                        <h4>فاطمة علي</h4>
+                        <span>حي الورود - الرياض</span>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"استبدلت جهازي القديم بجهاز جديد مع خصم جيد. الخدمة كانت سريعة وممتازة."</p>
+                    <div class="review-author">
+                        <h4>خالد عبدالله</h4>
+                        <span>حي الملك فهد - الرياض</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>اتصل بنا</h2>
+                <p>نحن هنا لمساعدتك</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>العنوان</h4>
+                            <p>شارع الملك فهد، الرياض، المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <p>+966 11 234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>واتساب</h4>
+                            <p>+966 50 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p>info@naseem-riyadh.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>ساعات العمل</h4>
+                            <p>الأحد - الخميس: 8 ص - 8 م</p>
+                            <p>الجمعة - السبت: 9 ص - 6 م</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.5!2d46.6753!3d24.7136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ5LjAiTiA0NsKwNDAnMzEuMSJF!5e0!3m2!1sen!2ssa!4v1234567890"
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/966501234567" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-wind"></i>
+                        <span>نسيم الرياض</span>
+                    </div>
+                    <p>شركة متخصصة في خدمات التكييف في الرياض. نقدم أفضل الخدمات بأسعار منافسة وضمان شامل.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#services">بيع أجهزة التكييف</a></li>
+                        <li><a href="#services">شراء الأجهزة المستعملة</a></li>
+                        <li><a href="#services">استبدال الأجهزة</a></li>
+                        <li><a href="#services">التركيب الاحترافي</a></li>
+                        <li><a href="#services">الصيانة الدورية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#gallery">معرض الصور</a></li>
+                        <li><a href="#warranty">الضمان</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>معلومات التواصل</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +966 11 234 5678</p>
+                        <p><i class="fab fa-whatsapp"></i> +966 50 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@naseem-riyadh.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 نسيم الرياض. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html> 
