@@ -1,7 +1,7 @@
 {
   "name": "naseem-al-riyadh",
   "version": "1.0.0",
-  "description": "Professional Arabic website for Naseem Al-Riyadh air conditioning company",
+  "description": "Professional Arabic website for Elqahtani air conditioning company",
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8000",
@@ -20,7 +20,7 @@
     "responsive",
     "rtl"
   ],
-  "author": "Naseem Al-Riyadh",
+  "author": "Elqahtani",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/naseem-al-riyadh.git"
+    "url": "git+https://github.com/your-username/Elqahtani.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/naseem-al-riyadh/issues"
+    "url": "https://github.com/your-username/Elqahtani/issues"
   },
   "homepage": "https://naseem-riyadh.com"
 } 
