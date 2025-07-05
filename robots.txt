@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elqahtani.netlify.app/sitemap.xml
